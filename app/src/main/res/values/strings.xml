@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Calculo zanjas</string>
+    <string name="zanja_normal">Calculo de zanjas</string>
+    <string name="zanja_vegetal">Calculo de zanjas doble altura</string>
+    <string name="title_activity_zanja__normal">Zanja Normal</string>
+    <string name="title_activity_zanja__dos">Zanja dos alturas</string>
+    <string name="A">A</string>
+    <string name="B">B</string>
+    <string name="C">C</string>
+    <string name="H">H</string>
+    <string name="H2">H2</string>
+    <string name="longitud">Longitud</string>
+    <string name="resultado">Resutado = </string>
+    <string name="m3">m3</string>
+    <string name="calcular">Calcular</string>
+</resources>
