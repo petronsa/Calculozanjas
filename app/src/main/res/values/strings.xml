@@ -6,12 +6,14 @@
     <string name="title_activity_zanja__dos">Zanja dos alturas</string>
     <string name="A">A</string>
     <string name="B">B</string>
-    <string name="C">C</string>
+    <string name="C">C = </string>
     <string name="H">H</string>
     <string name="H2">H2</string>
     <string name="longitud">Longitud</string>
-    <string name="resultado">Resultado = </string>
+    <string name="resultado">Volumen = </string>
     <string name="m3">m3</string>
     <string name="calcular">Calcular</string>
     <string name="error">Introducca un númro</string>
+    <string name="resultado_vol_sup">Volumen Superior (A,C)= </string>
+    <string name="resultado_vol_inf">Volumen Inferior (C,B)= </string>
 </resources>
