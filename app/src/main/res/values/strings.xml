@@ -13,7 +13,7 @@
     <string name="resultado">Volumen = </string>
     <string name="m3">m3</string>
     <string name="calcular">Calcular</string>
-    <string name="error">Introducca un númro</string>
+    <string name="error">Introducca un número</string>
     <string name="resultado_vol_sup">Volumen Superior (A,C)= </string>
     <string name="resultado_vol_inf">Volumen Inferior (C,B)= </string>
 </resources>
