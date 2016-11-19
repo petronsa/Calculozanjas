@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Die Berechnung der Gräben</string>
+    <string name="title_activity_zanja__normal">Normaler Graben</string>
+    <string name="zanja_vegetal">Graben von zwei Höhen</string>
+    <string name="calcular">Berechnen</string>
+    <string name="error">Geben Sie eine Nummer</string>
+    <string name="longitud">Länge</string>
+    <string name="m3">m3/yd3</string>
+    <string name="resultado">Volumen =</string>
+    <string name="resultado_vol_inf">Geringeres Volumen(C,B) =</string>
+    <string name="resultado_vol_sup">Höhere Volumina(A,C)=</string>
+    <string name="title_activity_zanja__dos">Zanja zwei Höhen</string>
+    <string name="zanja_normal">Die Berechnung der Gräben</string>
+    <string name="salir">Ausgang</string>
+</resources>

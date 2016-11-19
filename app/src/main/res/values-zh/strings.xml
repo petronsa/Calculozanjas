@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">戰壕的計算</string>
+    <string name="m3">m3/yd3</string>
+    <string name="calcular">計算</string>
+    <string name="error">輸入一個數字</string>
+    <string name="longitud">長</string>
+    <string name="resultado">音量 =</string>
+    <string name="resultado_vol_inf">降低音量 (C,B)=</string>
+    <string name="resultado_vol_sup">更高的产量 (A,C)=</string>
+    <string name="title_activity_zanja__dos">桑哈两个高度</string>
+    <string name="title_activity_zanja__normal">普通桑哈</string>
+    <string name="zanja_normal">戰壕的計算</string>
+    <string name="zanja_vegetal">戰壕雙倍高度的計算</string>
+    <string name="salir">出口</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cálculo de trincheiras</string>
+    <string name="zanja_normal">Cálculo de trincheiras</string>
+    <string name="calcular">Cáculo</string>
+    <string name="error">Introduza um número de</string>
+    <string name="longitud">Longitude</string>
+    <string name="m3">m3/yd3</string>
+    <string name="resultado">Volume =</string>
+    <string name="resultado_vol_inf">Menor volume(,C,B)=</string>
+    <string name="resultado_vol_sup">Maiores volumes(A,C)=</string>
+    <string name="title_activity_zanja__dos">Trincheira duas alturas</string>
+    <string name="title_activity_zanja__normal">Trincheira normal</string>
+    <string name="zanja_vegetal">Cálculo de trincheira altura dupla</string>
+    <string name="salir">Saída</string>
+</resources>

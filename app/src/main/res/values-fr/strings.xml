@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calcul des tranchées</string>
+    <string name="zanja_normal">Calcul des tranchées</string>
+    <string name="calcular">Calculer</string>
+    <string name="error">Entrez un numéro</string>
+    <string name="longitud">Longueur</string>
+    <string name="m3">m3/yd3</string>
+    <string name="resultado">Volume =</string>
+    <string name="resultado_vol_inf">Volume inférieur (C,B)=</string>
+    <string name="resultado_vol_sup">Volume supérieur (A,C)=</string>
+    <string name="title_activity_zanja__normal">Normale tranchées</string>
+    <string name="title_activity_zanja__dos">Tranchées deux hauteurs</string>
+    <string name="zanja_vegetal">Calcul des tranchées à double hauteur</string>
+    <string name="salir">Sortie</string>
+</resources>

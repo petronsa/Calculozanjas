@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Calculation of trenches</string>
     <string name="calcular">Calculate</string>
@@ -11,10 +12,5 @@
     <string name="zanja_normal">Calculation of trenches</string>
     <string name="zanja_vegetal">Calculation of double height trenches</string>
     <string name="m3">yd3/m3</string>
-    <string name="A" translatable="false">A</string>
-    <string name="B" translatable="false">B</string>
-    <string name="C" translatable="false">C =</string>
-    <string name="H" translatable="false">H</string>
-    <string name="H2" translatable="false">H2</string>
     <string name="salir">Exit</string>
 </resources>

@@ -4,13 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.app.petron.calculozanjas.Zanja_Normal"
-    tools:showIn="@layout/activity_zanja__normal">
+    tools:context="com.app.petron.calculozanjas.Zanja_Dos"
+    tools:showIn="@layout/activity_zanja__dos">
 
 
     <LinearLayout
@@ -22,12 +19,14 @@
         android:layout_alignParentStart="true"
         android:paddingLeft="1dp">
 
+
+
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/imageView"
             android:layout_gravity="left|center_vertical"
-            android:src="@drawable/zn" />
+            android:src="@drawable/zv" />
 
         <LinearLayout
             android:orientation="horizontal"
@@ -37,7 +36,7 @@
             <LinearLayout
                 android:orientation="vertical"
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent">
+                android:layout_height="wrap_content">
 
                 <LinearLayout
                     android:orientation="horizontal"
@@ -49,14 +48,15 @@
                         android:layout_height="wrap_content"
                         android:text="@string/A"
                         android:id="@+id/textViewA"
-                        android:textSize="20dp" />
+                        android:textSize="15dp" />
 
                     <EditText
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:inputType="numberDecimal"
                         android:ems="10"
-                        android:id="@+id/editTextA" />
+                        android:id="@+id/editTextA"
+                        android:textSize="15dp" />
 
                 </LinearLayout>
 
@@ -70,14 +70,15 @@
                         android:layout_height="wrap_content"
                         android:text="@string/B"
                         android:id="@+id/textViewB"
-                        android:textSize="20dp" />
+                        android:textSize="15dp" />
 
                     <EditText
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:inputType="numberDecimal"
                         android:ems="10"
-                        android:id="@+id/editTextB" />
+                        android:id="@+id/editTextB"
+                        android:textSize="15dp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -90,14 +91,36 @@
                         android:layout_height="wrap_content"
                         android:text="@string/H"
                         android:id="@+id/textViewH"
-                        android:textSize="20dp" />
+                        android:textSize="15dp" />
 
                     <EditText
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:inputType="numberDecimal"
                         android:ems="10"
-                        android:id="@+id/editTextH" />
+                        android:id="@+id/editTextH"
+                        android:textSize="15dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/H2"
+                        android:id="@+id/textViewH2"
+                        android:textSize="15dp" />
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:ems="10"
+                        android:id="@+id/editTextH2"
+                        android:textSize="15dp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -109,14 +132,16 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/longitud"
-                        android:id="@+id/textViewL" />
+                        android:id="@+id/textViewL"
+                        android:textSize="15dp" />
 
                     <EditText
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:inputType="numberDecimal"
                         android:ems="10"
-                        android:id="@+id/editTextL" />
+                        android:id="@+id/editTextL"
+                        android:textSize="15dp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -127,18 +152,38 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/resultado"
-                        android:id="@+id/textViewR"
-                        android:textStyle="bold"
-                        android:textSize="20dp" />
+                        android:text="@string/C"
+                        android:id="@+id/textViewC"
+                        android:textSize="15dp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:id="@+id/textViewResultado"
                         android:text="0"
-                        android:textSize="20dp"
-                        android:textStyle="bold" />
+                        android:id="@+id/textViewResulC"
+                        android:textSize="15dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/resultado_vol_sup"
+                        android:id="@+id/textViewRVS"
+                        android:textStyle="bold"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textViewrvs"
+                        android:text="0"
+                        android:textStyle="bold"
+                        android:textSize="15dp" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -148,17 +193,48 @@
                         android:singleLine="true"
                         android:paddingLeft="1dp"
                         android:textStyle="bold"
-                        android:textSize="20dp" />
+                        android:textSize="15dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/resultado_vol_inf"
+                        android:id="@+id/textViewRVI"
+                        android:textStyle="bold"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textViewrvi"
+                        android:text="0"
+                        android:textStyle="bold"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/m3"
+                        android:id="@+id/textView3"
+                        android:singleLine="true"
+                        android:paddingLeft="1dp"
+                        android:textStyle="bold"
+                        android:textSize="15dp" />
                 </LinearLayout>
 
             </LinearLayout>
 
             <LinearLayout
                 android:orientation="vertical"
-                android:layout_width="0dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:weightSum="1"
-                android:layout_weight="1">
+                android:weightSum="1">
 
                 <Button
                     android:layout_width="wrap_content"
@@ -170,7 +246,11 @@
 
         </LinearLayout>
 
+
     </LinearLayout>
+
+
+
 
 
 </RelativeLayout>

@@ -12,6 +12,7 @@
     tools:context="com.app.petron.calculozanjas.Zanja_Dos"
     tools:showIn="@layout/activity_zanja__dos">
 
+
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
@@ -20,6 +21,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:paddingLeft="1dp">
+
+
 
         <ImageView
             android:layout_width="wrap_content"
@@ -240,5 +243,11 @@
 
         </LinearLayout>
 
+
     </LinearLayout>
+
+
+
+
+
 </RelativeLayout>
