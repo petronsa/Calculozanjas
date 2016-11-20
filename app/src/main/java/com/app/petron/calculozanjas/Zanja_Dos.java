@@ -84,12 +84,12 @@ public class Zanja_Dos extends AppCompatActivity {
         DfH = H-H2;
         DfA = A-B;
         C = ((DfA*DfH)/H)+B;
-        //Preparamos el redondeo con 2 digitos
-        NumberFormat nf = NumberFormat.getInstance();
-        nf.setMinimumFractionDigits(2);
-        //Mostramos C
+
+        //Mostramos C convertido a String con un decimal
         resultadoC = (TextView)findViewById(R.id.textViewResulC);
-        resultadoC.setText(nf.format(C));
+        String cst;
+        cst= String.format("%.1f",C);
+        resultadoC.setText(cst);
 
         //Calculo Area superior
         double Hsuperior = H-H2;
@@ -98,25 +98,22 @@ public class Zanja_Dos extends AppCompatActivity {
         double VolumenSuperior = AreaSuperior*L;
         //Mostramos el volumen superior
         TextView VS = (TextView)findViewById(R.id.textViewrvs);
+        //pasamos de double a string y lo redondeamos a 1 decimal
+        String vsst;
+        vsst=String.format("%.1f",VolumenSuperior);
+        VS.setText(vsst);
 
-        VS.setText(nf.format(VolumenSuperior));
-
-        //Calucular area inferior
+                //Calucular area inferior
         double AreaInferior =(H2*((C+B)/2));
         //Calculo volumen inferior
         double VolumenInferior = AreaInferior*L;
         //Mostramos el volumen inferior
         TextView VI = (TextView)findViewById(R.id.textViewrvi);
-        VI.setText(nf.format(VolumenInferior));
+        //pasamos de double a string y lo redondeamos a 1 decimal
+        String vist;
+        vist = String.format("%.1f",VolumenInferior);
+        VI.setText(vist);
 
-
-       /* double Arera = (H*((A+B)/2));
-        double Volumen = Arera*L;
-
-        TextView Resultado = (TextView) findViewById(R.id.textViewResultado);
-        NumberFormat nf = NumberFormat.getInstance();
-        nf.setMinimumFractionDigits(2);
-        Resultado.setText(nf.format(Volumen));*/
 
     }
 

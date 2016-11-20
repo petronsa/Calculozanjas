@@ -80,9 +80,10 @@ public class Zanja_Normal extends AppCompatActivity {
         double Volumen = Arera*L;
 
         TextView Resultado = (TextView) findViewById(R.id.textViewResultado);
-        NumberFormat nf = NumberFormat.getInstance();
-        nf.setMinimumFractionDigits(2);
-        Resultado.setText(nf.format(Volumen));
+        //convertinos double a string con un solo decimal
+        String volumenst;
+        volumenst = String.format("%.1f",Volumen);
+        Resultado.setText(volumenst);
 
     }
 
