@@ -8,8 +8,14 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
-import com.startapp.android.publish.adsCommon.StartAppAd;
-import com.startapp.android.publish.adsCommon.StartAppSDK;
+import com.startapp.android.publish.StartAppAd;
+import com.startapp.android.publish.StartAppSDK;
+
+
+
+
+
+
 
 public class MainActivity extends AppCompatActivity {
     private StartAppAd startAppAd = new StartAppAd(this);

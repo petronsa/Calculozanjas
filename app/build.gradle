@@ -8,8 +8,8 @@ android {
         applicationId "com.app.petron.calculozanjas"
         minSdkVersion 16
         targetSdkVersion 24
-        versionCode 3
-        versionName "1.6"
+        versionCode 4
+        versionName "1.7"
     }
     buildTypes {
         release {
@@ -25,5 +25,5 @@ dependencies {
     compile 'com.android.support:appcompat-v7:24.2.1'
     compile 'com.android.support:design:24.2.1'
     compile 'com.google.android.gms:play-services-appindexing:8.1.0'
-    compile files('libs/StartAppInApp-3.6.5.jar')
+    compile files('libs/StartAppInApp-3.5.1.jar')
 }

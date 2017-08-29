@@ -5,6 +5,9 @@
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
 
     <application
         android:allowBackup="true"
@@ -19,6 +22,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <!-- StartApp activities integration -->
+
         <activity android:name="com.startapp.android.publish.list3d.List3DActivity"
             android:theme="@android:style/Theme" />
 
@@ -41,6 +46,8 @@
             android:theme="@style/AppTheme.NoActionBar">
 
         </activity>
+
+        <!-- End of StartApp activities integration -->
     </application>
 
 </manifest>
